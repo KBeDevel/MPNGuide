@@ -1,4 +1,61 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700);
+
 body{
-    background-color: #fff; 
+    background-color: #fff;
 }
 
+body > header > nav{
+    /*background-color: #666666;*/
+    background-color: rgba(1, 1, 1, 0.7);
+    color: #fff;
+}
+
+body > footer{
+    background-color: rgba(1, 1, 1, 0.7);
+    color: #fff;
+}
+
+.main-title{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: bold;
+    font-size: 40px;
+}
+.brand-logo-text{
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+nav ul a:hover{
+    background-color: rgba(#323232, 0.842);
+}
+
+.current{
+    background-color: #606060;
+}
+
+section.index-section{
+    padding-top: 50px;
+}
+
+.index-bizagi-logo{
+    width: 100%;
+    max-height: 0 auto;
+}
+
+p.index-desc{
+    font-size: 18px;
+}
+
+.text-justify{
+    text-align: justify;
+    text-justify: auto;
+}
+
+footer > div > div.container{
+    padding-top: 25px;
+}

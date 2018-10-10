@@ -7,34 +7,74 @@
     <title>TeaTeam | Inicio</title>
     <!-- JS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="assets/css/own.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/css/own.js" defer></script>
     <!-- CSS -->
-    <link type="text/css" rel="stylesheet" href="assets/css/own.css">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <link type="text/css" rel="stylesheet" href="assets/css/own.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <h3>Pal que lee</h3>
-        </nav>
-    </header>
+    <header class="navbar-fixed">
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a style="padding-left: 1%;" href="index.html" class="brand-logo main-title">
+                    TeaTeam&nbsp;|<small class="brand-logo-text">&nbsp;Inicio</small>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li class="current"><a href="#">Inicio</a></li>
+                    <li><a href="#">Bizagi Modeler</a></li>
+                    <li><a href="#">Bizagi Studio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                </ul>
+            </div>
+        </nav>        
+    </header>   
+    
+    <ul class="sidenav">
+        <li class="current"><a href="#">Inicio</a></li>
+        <li><a href="#">Bizagi Modeler</a></li>
+        <li><a href="#">Bizagi Studio</a></li>
+        <li><a href="#">Nosotros</a></li>
+    </ul>
 
-    <section class="container">
+    <section class="container index-section">
         <div class="row">
-            <div class="col s12 m6 l6">
-                <img style="padding-top: 80px;" width="440" heigth="620" src="https://ww1.prweb.com/prfiles/2015/02/19/12530221/Bizagi_BrandMk_RGB_StrapMBRHi.jpg">
+            <div class="col s12 m12 l12">
+                <img class="index-bizagi-logo" src="https://resourcesbizagi.azureedge.net/images/Bizagi_logo.svg">
+            </div>
+            <div class="col s12 m12 l12">
+                <br><h3 class="text-justify">¿Qué es Bizagi?</h3>
+                <p class="text-justify index-desc">
+                    Bizagi&reg; es una suite de herramientas y plataforma de modelamiento y esquematización de procesos de negocio bajo el estándar UML.
+                    <br><br>                    
+                    Presenta un espacio de trabajo para elaborar, evaluar y exportar documentos gráficos UML referentes a una solución o sistema. Para mayor información consulte <a target="_blank" href="https://www.bizagi.com/es/acerca-de">aquí</a>.
+                    <br><br>
+                    Otros links:
+                    <br><br>
+                    <a target="_blank" href="">Bizagi Modeler&copy;</a>
+                    <br>
+                    <a target="_blank" href="">Bizagi Studio&copy;</a>
+                </p>
             </div>
         </div>
     </section>
 
-    <section>
-
-    </section>
-
-    <footer>
-
+    <footer class="container-fluid">
+        <div>
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m6 l6">
+                        <h6>TeaTeam | MPN6501-001D</h6>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <p class="text-justify">Este sitio es sólo una página de visualización con fines académicos sujetos a una evaluación parte de la signatura MPN6501 impartida en <a target="_blank" href="https://www.duoc.cl/">DuocUC&copy;</a>. Todos los derechos reservados a <a target="_blank" href="https://www.bizagi.com">Bizagi&reg;.</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
