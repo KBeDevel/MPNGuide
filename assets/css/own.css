@@ -67,6 +67,14 @@ p.index-desc{
     text-justify: auto;
 }
 
+.text-center{
+    text-align: center;
+}
+
+.building-page-text{
+    padding-top: 180px;
+}
+
 footer > div > div.container{
     padding-top: 25px;
 }
