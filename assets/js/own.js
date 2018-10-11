@@ -1,9 +1,13 @@
-//Adding (and importing navbar items) a left sidenav for mobile devices
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.sidenav');
-    var instances = M.Sidenav.init(elems, options);
-});
+function dropdownPadding(){
+    var navHeight = $('header').height();
+    //alert($('header').height());
+    $('#modeler-items').css('padding-top', navHeight);
+    $('#studio-items').css('padding-top', navHeight);
+}
+
 
 $(document).ready(() => {
+    //dropdownPadding();
     $('.sidenav').sidenav();
+    $('.dropdown-trigger').dropdown({hover: false});
 })

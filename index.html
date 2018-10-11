@@ -8,8 +8,9 @@
     <!-- JS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script type="text/javascript" src="assets/css/own.js" defer></script>
+    <script type="text/javascript" src="assets/js/own.js" defer></script>
     <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
     <link type="text/css" rel="stylesheet" href="assets/css/own.css">
@@ -24,8 +25,16 @@
                 <ul class="right hide-on-med-and-down">
                     <li class="current"><a href="#">Inicio</a></li>
                     <li><a href="mpn.html">MPN</a></li>
-                    <li><a href="modeler.html">Bizagi Modeler</a></li>
-                    <li><a href="studio.html">Bizagi Studio</a></li>
+                    <li><a class="dropdown-trigger" data-target="modeler-items">Modeler<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <ul id="modeler-items" class="dropdown-content">
+                            <li><a href="modeler.html">Software</a></li>
+                            <li><a href="modeler_examples.html">Ejemplos</a></li>
+                        </ul>
+                    <li><a class="dropdown-trigger" data-target="studio-items">Studio<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <ul id="studio-items" class="dropdown-content">
+                            <li><a href="modeler.html">Software</a></li>
+                            <li><a href="modeler_examples.html">Ejemplos</a></li>
+                        </ul>
                     <li><a href="about.html">Nosotros</a></li>
                 </ul>
             </div>

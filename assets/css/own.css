@@ -34,6 +34,17 @@ nav ul a:hover{
     background-color: rgba(#323232, 0.842);
 }
 
+ul.dropdown-content{
+    position: absolute;
+    background-color: rgba(#323232, 0.842);
+    right:0px;
+    top: -64px;
+}
+
+ul.dropdown-content > li > a{
+    color: #000;
+}
+
 .current{
     background-color: #606060;
 }
