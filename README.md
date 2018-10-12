@@ -7,7 +7,7 @@ Página web referente a trabajo postulado el día Octubre 9 de 2018 para MPN6501
 ****************
 Integrantes:
 
-Benjamín Calisto
-Camilo Montupil
-Bryan Ortiz
+Benjamín Calisto<br>
+Camilo Montupil<br>
+Bryan Ortiz<br>
 ****************
