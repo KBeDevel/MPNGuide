@@ -1,6 +1,13 @@
-# mpn-u2
-Página web referente a clase 9_10 de MPN6501-001D
+# Página web MPN & Bizagi
 
-http://www.xtrean.ga/?i=1#
+Página web referente a trabajo postulado el día Octubre 9 de 2018 para MPN6501-001D
 
-pal que lee
+<a href="http://www.xtrean.ga/?i=1#">Ir al sitio web</a>
+
+****************
+Integrantes:
+
+Benjamín Calisto
+Camilo Montupil
+Bryan Ortiz
+****************
