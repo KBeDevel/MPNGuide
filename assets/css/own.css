@@ -62,6 +62,11 @@ section.index-section{
     max-height: 0 auto;
 }
 
+.example-gif{
+    width: 100%;
+    max-height: 0 auto;
+}
+
 .bpmn-item{
     width: 100%;
     max-height: 0 auto;
@@ -91,6 +96,11 @@ p.index-desc{
 
 .intercontent-2{
     background-color: gray;
+    color: #fff;
+}
+
+.banner-modeler{
+    background-color: rgb(255, 137, 41);
     color: #fff;
 }
 
