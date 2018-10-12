@@ -57,6 +57,18 @@ section.index-section{
     max-height: 0 auto;
 }
 
+.bizagi-logo{
+    width: 100%;
+    max-height: 0 auto;
+}
+
+.bpmn-item{
+    width: 100%;
+    max-height: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
 p.index-desc{
     font-size: 18px;    
 }
@@ -64,6 +76,10 @@ p.index-desc{
 .intercontent{
     background-color: rgb(88, 191, 250);
     color: #fff;
+}
+
+.intercontent > div > div > div > p{
+    font-size: 18px;
 }
 
 .intercontent-2{
