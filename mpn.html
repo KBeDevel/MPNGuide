@@ -143,9 +143,11 @@
                 </div>
             </div>
             <div class="row">
-                <p class="text-justify">
-                    BPMN especifica una serie de elementos para constituir los distintos procesos de negocio que se necesiten diagramar. A continuación tendrás una breve descripción de cada uno:
-                </p><br>
+                <div class="col s12 m12 l12">
+                    <p class="text-justify">
+                        BPMN especifica una serie de elementos para constituir los distintos procesos de negocio que se necesiten diagramar. A continuación tendrás una breve muestra de cada uno:
+                    </p><br>
+                </div>
             </div>
         </div>
     </section>
@@ -155,7 +157,7 @@
             <!-- Seccion para carriles -->
             <div class="row">
                 <div class="col s12 m12 l12">
-                    <h4>Carriles</h4>
+                    <h4 class="text-center">Carriles</h4>
                 </div>
                 <div class="col s12 m4 l4">
                     <img class="bpmn-item" src="assets/img/bpmn/carriles.png">
@@ -169,13 +171,227 @@
                     </p>
                 </div>
             </div>
+            <div class="divider"></div>
             <!-- Asociaciones -->
             <div class="row">
                 <div class="col s12 m12 l12">
-                    <h4>Asociaciones</h4>
+                    <h4 class="text-center">Asociaciones</h4>
                 </div>
-                <div class="row">
-                
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/flujo de secuencia.png">
+                    <h5 class="text-center">Flujo de Secuencia</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/flujo de mensaje.png">
+                    <h5 class="text-center">Flujo de Mensajes</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/asociacion.png">
+                    <h5 class="text-center">Asociación de artefactos y elementos de flujo</h5>
+                </div>
+            </div>  
+            <div class="divider"></div>          
+            <!-- Actividades -->
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="text-center">Actividades</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/tarea.png">
+                    <h5 class="text-center">Tarea Simple</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/tarefa-de-servico.png">
+                    <h5 class="text-center">Tarea de Servicio</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/tarefa-de-reconhecimento.png">
+                    <h5 class="text-center">Tarea de Recepción de Mensaje</h5>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/tarefa-manual.png">
+                    <h5 class="text-center">Tarea Manual</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/tarefa-de-usuario.png">
+                    <h5 class="text-center">Tarea de Usuario</h5>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/Subprocesso.png">
+                    <h5 class="text-center">Subproceso</h5>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <!-- Eventos -->
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="text-center">Eventos</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/inicio.png">
+                    <h5 class="text-center">Evento de Inicio</h5>
+                    <p class="text-justify text-center">Indica el primer paso de un proceso</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/intermedio.png">
+                    <h5 class="text-center">Evento de Intermedio</h5>
+                    <p class="text-justify">Representa cualquier evento que ocurre entre un evento de inicio y uno de finalización.</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/finalizacion.png">
+                    <h5 class="text-center">Evento de Finalización</h5>
+                    <p class="text-justify text-center">Indica el último paso en un proceso.</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <!-- Simbología de Eventos -->
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="text-center">Simbología de Eventos</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/mensaje.png">
+                    <h5 class="text-center">Mensaje</h5>
+                    <p class="text-justify">Activa el proceso, facilita los procesos intermedios o completa el proceso.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/temporizador.png">
+                    <h5 class="text-center">Temporizador</h5>
+                    <p class="text-justify">Una fecha, una hora o una fecha y hora recurrentes activan el proceso, ayudan a los procesos intermedios o completan el proceso.</p>
+                </div>
+            <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/escalacion.png">
+                    <h5 class="text-center">Escalación</h5>
+                    <p class="text-justify"> Un paso reacciona en una escalación y fluye a otro rol en la organización. Este evento solo se usa en un subproceso de evento. Una escalación ocurre cuando alguien con un nivel más alto de responsabilidad dentro de la organización se involucra en un proceso.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/condicional.png">
+                    <h5 class="text-center">Condicional</h5>
+                    <p class="text-justify">Un proceso comienza o continúa cuando se cumple una condición de negocio o regla de negocio.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/enlace.png">
+                    <h5 class="text-center">Enlace</h5>
+                    <p class="text-justify">Un subproceso que es parte de un proceso más extenso.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/error.png">
+                    <h5 class="text-center">Error</h5>
+                    <p class="text-justify">Un error detectado al inicio, a la mitad o al final de un proceso. Un subproceso de evento con un activador de error siempre interrumpirá el proceso que contiene.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/cancelacion.png">
+                    <h5 class="text-center">Cancelación</h5>
+                    <p class="text-justify">Reacciona a una transacción que se canceló dentro de un subproceso. En un evento de finalización, el símbolo de cancelación indica que se activó la cancelación de un proceso.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/compensacion.png">
+                    <h5 class="text-center">Compensación</h5>
+                    <p class="text-justify">Un reembolso que se activa cuando las operaciones fallan de forma parcial.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/senial.png">
+                    <h5 class="text-center">Señal</h5>
+                    <p class="text-justify">Una señal que se comunica en distintos procesos. Un símbolo de señal puede iniciar un proceso, facilitarlo o completarlo.</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/multiple.png">
+                    <h5 class="text-center">Múltiple</h5>
+                    <p class="text-justify">Activadores múltiples que inician un proceso.</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/multiples.png">
+                    <h5 class="text-center">Paralelas Mútiples</h5>
+                    <p class="text-justify">Una instancia de proceso que no comienza, continúa o finaliza hasta que todos los eventos posibles se hayan llevado a cabo.</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <!-- Gateways -->
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="text-center">Puertas de Enlace</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/bpmn-symbols-explained/BPMN_exclusive_gateway-59x59.PNG">
+                    <h5 class="text-center">Exclusivo Basado en Datos</h5>
+                    <p class="text-justify">El flujo sigue por una condición exclusiva.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/paralelo.png">
+                    <h5 class="text-center">Paralelo</h5>
+                    <p class="text-justify">El flujo se divide en otros que ocurren en paralelo.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="https://d2slcw3kip6qmk.cloudfront.net/marketing/pages/chart/bpmn-symbols-explained/BPMN_parallel_event_based_gateway-59x59.PNG">
+                    <h5 class="text-center">Paralelo Basado en Eventos</h5>
+                    <p class="text-justify">Permite que múltiples procesos ocurran al mismo tiempo, pero a diferencia de la puerta de enlace paralela, los procesos dependen de eventos.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/inclusivo.png">
+                    <h5 class="text-center">Inclusivo</h5>
+                    <p class="text-justify">El flujo sigue una condición inclusiva, es decir, para cada flujo de secuencia, se evalúa una fórmula y si se devuelve el valor verdadero, entonces se activa el camino.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/complexo.png">
+                    <h5 class="text-center">Complejo</h5>
+                    <p class="text-justify">Controla condiciones complejas de divergencia y también de convergencia.</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/exclusivo basado en eventos.png">
+                    <h5 class="text-center">Exclusivo Basado en Eventos</h5>
+                    <p class="text-justify">Inicia una instancia nueva del proceso con cada suceso de un evento subsiguiente.</p>
+                </div>
+                <div class="col s12 m4 l4">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/basado en eventos.png">
+                    <h5 class="text-center">Basado en Eventos</h5>
+                    <p class="text-justify">Siempre se utiliza para dividir el flujo de iniciar un proceso debido a la ocurrencia única de uno entre múltiples eventos.</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <!-- Artefactos -->
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <h4 class="text-center">Artefactos</h4>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/entrada de datos.png">
+                    <h5 class="text-center">Entrada de Datos</h5>
+                    <p class="text-justify">Representa los requisitos de datos de los que dependen las tareas en el proceso de negocio.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/salida de datos.png">
+                    <h5 class="text-center">Salida de Datos</h5>
+                    <p class="text-justify">Demuestra la información producida como resultado de un proceso de negocio.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/recopilacion de datos.png">
+                    <h5 class="text-center">Recopilación de Datos</h5>
+                    <p class="text-justify">Representa la información recopilada dentro de un proceso de negocio.</p>
+                </div>
+                <div class="col s12 m3 l3">
+                    <img class="bpmn-item-little" src="assets/img/bpmn/almacenamiento de datos.png">
+                    <h5 class="text-center">Almacenamiento de Datos</h5>
+                    <p class="text-justify">Representa la capacidad de guardar datos asociados a un proceso de negocio o de acceder a ellos.</p><br>
                 </div>
             </div>
         </div>

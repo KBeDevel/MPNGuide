@@ -69,6 +69,13 @@ section.index-section{
     padding-bottom: 25px;
 }
 
+.bpmn-item-little{
+    padding-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 p.index-desc{
     font-size: 18px;    
 }
@@ -98,10 +105,6 @@ p.index-desc{
 
 .building-page-text{
     padding-top: 180px;
-}
-
-.center{
-    align-items: center;
 }
 
 footer.page-footer{
