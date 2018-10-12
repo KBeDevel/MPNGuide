@@ -66,6 +66,11 @@ p.index-desc{
     color: #fff;
 }
 
+.intercontent-2{
+    background-color: gray;
+    color: #fff;
+}
+
 .text-justify{
     text-align: justify;
     text-justify: auto;
@@ -89,4 +94,17 @@ footer.page-footer{
 
 footer.page-footer > div.footer-copyright{
     background-color: rgba(28,28,28,0.7);
+    height: 48px;
+}
+
+@media screen and (min-width: 1024px){
+    footer.page-footer > div.footer-copyright > div > div > div > p{
+        padding-top: 24px;
+    }
+}
+
+@media screen and (max-device-width: 640px) and (orientation: portrait){
+    footer.page-footer > div.footer-copyright > div > div > div > p{
+        padding-top: 12px;
+    }
 }
