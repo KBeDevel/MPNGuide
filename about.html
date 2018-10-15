@@ -8,23 +8,87 @@
     <!-- JS -->
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="text/javascript" src="assets/js/own.js" defer></script>
     <!-- CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link type="text/css" rel="stylesheet" href="assets/css/own.css">
-    <style type="text/css" rel="stylesheet">
-        body{
-            background-color: #323232;
-            color: #fff;
-        }
-    </style>
 </head>
 <body>
+    <header class="navbar-fixed">
+        <nav class="nav-extended">
+            <div class="nav-wrapper">
+                <a style="padding-left: 1%;" href="index.html" class="brand-logo main-title">
+                    TeaTeam&nbsp;|<small class="brand-logo-text">&nbsp;Acerca de nosotros</small>
+                </a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="mpn.html">MPN</a></li>
+                    <li><a class="dropdown-trigger" data-target="modeler-items">Software<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <ul id="modeler-items" class="dropdown-content">
+                            <li><a href="modeler.html">Bizagi Modeler</a></li>
+                            <li><a href="studio.html">BIzagi Studio</a></li>
+                        </ul>
+                    <li><a class="dropdown-trigger" data-target="studio-items">Ejemplos<i class="material-icons right">arrow_drop_down</i></a></li>
+                        <ul id="studio-items" class="dropdown-content">
+                            <li><a href="modeler_examples.html">Modeler Examples</a></li>
+                            <li><a href="studio_examples.html">Studio Examples</a></li>
+                        </ul>
+                    <li class="current"><a href="about.html">Nosotros</a></li>
+                </ul>
+            </div>
+        </nav>        
+    </header>
+    
     <section class="container">
-        <div class="row">
-            <div class="col s12 m12 l12">
-                <h5 class="text-center building-page-text">Página en construcción. <a href="" onclick="window.history.go(-1); return false;">Volver atrás</a></h5>
+        <div class="row">                
+            <div class="col s12 m6 l6">
+                <img class="teateam-logo" src="assets/img/tt/TeaTeam_logo_1.png">
+            </div>
+            <div class="col s12 m6 l6">
+                <h2 class="text-justify">Somos TeaTeam</h2>
+                <small>por <a href="https://github.com/KBedeveloper" target="_blank">Benjamín Calisto</a> (KBeDeveloper)</small>
+                <p class="text-justify">
+                    Una comunidad informática independiente. Siempre al margen de ideas nuevas, compatibles con una visión de futuro constructiva y abierta.                        
+                </p>
+                <p class="text-justify">
+                    Somos usuarios y desarrolladores de código abierto. Buscamos ser un referente del desarrollo de software al alcance de la sociedad general y proporcionar soluciones a los problemas de hoy y mañana.
+                </p>
             </div>
         </div>
+        <div class="divider"></div>
+        <div class="row">
+            <div class="col s12 m12 l12">
+                <h3>También puedes encontrarnos en:</h3>
+            </div>
+        </div>
+        <div class="row" id="">
+            
+        </div>
     </section>
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6 l6">
+                    <h6>TeaTeam | MPN6501-001D</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col s12 m12 l12">
+                    <p class="text-justify">Este sitio es sólo una página de visualización con fines académicos sujetos a una evaluación parte de la asignatura MPN6501 impartida en <a target="_blank" href="https://www.duoc.cl/">DuocUC&reg;</a>. Todos los derechos reservados a <a target="_blank" href="https://www.bizagi.com">Bizagi&reg;.</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+                        <p>TeaTeam &copy; 2018</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
