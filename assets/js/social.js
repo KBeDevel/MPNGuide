@@ -10,12 +10,12 @@ function loadJson(){
       }
       });
     $.getJSON("../json/social.json", function(json){
-        socialList = this;
+        socialList = json;
     });
 }
 
 function appendSocial(list){
-    
+
 }
 
 $(document).on('ready', () => {
