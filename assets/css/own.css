@@ -57,11 +57,6 @@ section.index-section{
     max-height: 0 auto;
 }
 
-.bizagi-logo{
-    width: 100%;
-    max-height: 0 auto;
-}
-
 .example-gif{
     width: 100%;
     max-height: 0 auto;
@@ -99,8 +94,34 @@ p.index-desc{
     color: #fff;
 }
 
+.banner{
+    padding-top: 28px;
+}
+
+.bizagi-logo{
+    width: 95%;
+    max-height: 0 auto;
+}
+
 .banner-modeler{
     background-color: rgb(255, 137, 41);
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.banner-modeler-examples{
+    background-color: rgb(255, 137, 41);
+    color: #fff;
+}
+
+.banner-studio{
+    background-color: rgb(153, 212, 41);
+    color: #fff;
+    padding-bottom: 6px;
+}
+
+.banner-studio-examples{
+    background-color: rgb(153, 212, 41);
     color: #fff;
 }
 
