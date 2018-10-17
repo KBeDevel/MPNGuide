@@ -169,6 +169,14 @@ p.index-desc{
     text-align: center;
 }
 
+.warn-text{
+    color: red;
+}
+
+.warn-box{
+    background-color: #dddddd;
+}
+
 .center{
     display:block;
     margin-left:auto;
