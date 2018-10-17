@@ -76,6 +76,31 @@ section.index-section{
     margin-right: auto;
 }
 
+.social-img{
+    width: 28px;
+    max-height: 0 auto;
+    margin: 6px;
+}
+
+.social-section{
+    background-color: #606060;
+    color: #fff;
+}
+
+.social-title{
+    color: #000;
+}
+
+.colab{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: cover;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+}
+
 p.index-desc{
     font-size: 18px;    
 }
@@ -132,6 +157,12 @@ p.index-desc{
 
 .text-center{
     text-align: center;
+}
+
+.center{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 .building-page-text{

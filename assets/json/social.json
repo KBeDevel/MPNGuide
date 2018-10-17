@@ -1,17 +1,22 @@
 [
     {
-        "name":"",
-        "url":"",
-        "icon":""
+        "nam":"TeaTeam en GitHub",
+        "url":"https://github.com/TeaTeamSoft",
+        "icon":"https://png.icons8.com/windows/512/ffffff/github.png"
     },
     {
-        "name":"",
-        "url":"",
-        "icon":""
+        "nam":"TeaTeam en GitLab",
+        "url":"https://gitlab.com/teateam",
+        "icon":"https://png.icons8.com/ios/512/ffffff/gitlab-filled.png"
     },
     {
-        "name":"",
-        "url":"",
-        "icon":""
+        "nam":"TeaTeam en Slack",
+        "url":"https://teateamsoft.slack.com/",
+        "icon":"https://png.icons8.com/ios/512/ffffff/slack-filled.png"
+    },
+    {
+        "nam":"TeaTeam en Discord",
+        "url":"https://discord.gg/DfSqag",
+        "icon":"https://png.icons8.com/ios/512/ffffff/discord-logo-filled.png"
     }
 ]

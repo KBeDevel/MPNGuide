@@ -1,25 +1,20 @@
-var socialList = [];
-
 function loadJson(){
     //Configure Firefox parsing condition
     $.ajaxSetup({beforeSend: function(xhr){
         if (xhr.overrideMimeType)
         {
-          xhr.overrideMimeType("application/json");
+          xhr.overrideMimeType('application/json');
         }
       }
       });
-    $.getJSON("../json/social.json", function(json){
-        socialList = json;
+    $.getJSON('assets/json/social.json', function(json){
+        $('#social-items').html('');
+        json.forEach(e => {
+            $('#social-items').append(                
+                '<a target="_blank" href="'+e.url+'" title="'+e.nam+'"><img class="social-img" src="'+e.icon+'">'
+            );
+        });
     });
 }
 
-function appendSocial(list){
-
-}
-
-$(document).on('ready', () => {
-    loadJson();
-    //And at this moment is when Stalin is crying on his tomb
-    appendSocial(socialList);
-})
+loadJson();
