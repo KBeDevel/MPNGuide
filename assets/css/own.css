@@ -57,6 +57,16 @@ section.index-section{
     max-height: 0 auto;
 }
 
+.bpmn-logo-img{
+    width: 100%;
+    max-height: 0 auto;
+}
+
+.checkmark-img{
+    width: 100%;
+    max-height: 0 auto;
+}
+
 .example-gif{
     width: 100%;
     max-height: 0 auto;
