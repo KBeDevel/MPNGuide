@@ -1,0 +1,23 @@
+{
+    "version":"0.31-pre",
+    "author": {
+        "email": "be.calisto@alumnos.duoc.cl",
+        "name": "Benjamín Calisto (KBeDeveloper)"
+    },
+    "contributors": [
+        {
+            "email":"ca.montupil@alumnos.duoc.cl",
+            "name":"Camilo Montupil"
+        },
+        {
+            "email":"brya.ortiz@alumnos.duoc.cl",
+            "name": "Bryan Ortiz"
+        }
+    ],
+    "description": "MPN6501-001D TeaTeam Web Page for BPMN 2.0 & Bizagi Suite",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/TeaTeamSoft/mpn-u2"
+    }
+}
