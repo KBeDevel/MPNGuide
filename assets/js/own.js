@@ -31,6 +31,10 @@ window.onresize = function(event){
     hideBrandChild();
 }
 
+$(function () {
+    $('.pannable-image').ImageViewer();
+});
+
 //dropdownPadding();
 $('.sidenav').sidenav();
 $('.dropdown-trigger').dropdown({hover: false});

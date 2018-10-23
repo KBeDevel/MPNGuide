@@ -212,3 +212,7 @@ footer.page-footer > div.footer-copyright{
         padding-top: 12px;
     }
 }
+
+.pannable-image{
+    width: 700px;
+}
