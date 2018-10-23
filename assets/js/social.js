@@ -10,7 +10,7 @@ function loadJson(){
     $.getJSON('assets/json/social.json', function(json){
         $('#social-items').html('');
         json.forEach(e => {
-            $('#social-items').append(                
+            $('#social-items').append(
                 '<a target="_blank" href="'+e.url+'" title="'+e.nam+'"><img class="social-img" src="'+e.icon+'">'
             );
         });
