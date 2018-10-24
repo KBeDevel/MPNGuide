@@ -1,9 +1,6 @@
-var subt
-var sm
-var smContent
-subt = document.getElementsByClassName('brand-logo-text')[0].innerHTML.substr(6,99)
-sm = document.createElement('SMALL')
-smContent = document.createTextNode(subt)
+var subt = document.getElementsByClassName('brand-logo-text')[0].innerHTML.substr(6,99)
+var sm = document.createElement('SMALL')
+var smContent = document.createTextNode(subt)
 function hideBrandChild(){
     sm.appendChild(smContent)
     sm.setAttribute('class', 'brand-logo-text')
@@ -17,9 +14,9 @@ function hideBrandChild(){
     }
 }
 function dropdownPadding(){
-    var navHeight = $('header').height()
-    $('#modeler-items').css('padding-top', navHeight)
-    $('#studio-items').css('padding-top', navHeight)
+    var navHeight = document.getElementsByTagName('header').height //$('header').height()
+    document.getElementById('modeler-items').style.paddingTop = navHeight
+    document.getElementById('studio-items').style.paddingTop = navHeight
 }
 window.onresize = function(event){
     hideBrandChild()
