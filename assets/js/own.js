@@ -15,7 +15,7 @@ function hideBrandChild(){
         document.getElementsByClassName('brand-logo')[0].innerHTML = 'TeaTeam'
     }else{ 
         document.getElementsByClassName('brand-logo')[0].innerHTML = 'TeaTeam | '
-        document.getElementsByClassName('brand-logo')[0].appendChild(sm);
+        document.getElementsByClassName('brand-logo')[0].appendChild(sm)
         document.getElementsByClassName('brand-logo-text')[0].style.fontSize = '20px'
     }
 }
