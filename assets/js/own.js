@@ -14,7 +14,7 @@ function hideBrandChild(){
     }
 }
 function dropdownPadding(){
-    var navHeight = document.getElementsByTagName('header').height //$('header').height()
+    var navHeight = document.getElementsByTagName('header').clientHeight //$('header').height()
     document.getElementById('modeler-items').style.paddingTop = navHeight
     document.getElementById('studio-items').style.paddingTop = navHeight
 }
