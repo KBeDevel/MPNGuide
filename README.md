@@ -6,6 +6,6 @@ Página web referente a trabajo postulado el día Octubre 9 de 2018 para MPN6501
 
 ## Integrantes:
 
-&nbsp;&nbsp;Benjamín Calisto<br>
-&nbsp;&nbsp;Camilo Montupil<br>
-&nbsp;&nbsp;Bryan Ortiz<br>
+[Benjamín Calisto](https://github.com/KBeDeveloper)<br>
+[Camilo Montupil](https://github.com/camiloJTG)<br>
+[Bryan Ortiz](https://github.com/RoyalSylphID)
