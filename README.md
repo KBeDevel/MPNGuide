@@ -2,12 +2,10 @@
 
 Página web referente a trabajo postulado el día Octubre 9 de 2018 para MPN6501-001D
 
-<a href="http://www.xtrean.ga/?i=1#">Ir al sitio web</a>
+[Link al sitio oficial](https://teateamsoft.github.io/MPNGuide)
 
-****************
-Integrantes:
+## Integrantes:
 
-Benjamín Calisto<br>
-Camilo Montupil<br>
-Bryan Ortiz<br>
-****************
+&nbsp;&nbsp;Benjamín Calisto<br>
+&nbsp;&nbsp;Camilo Montupil<br>
+&nbsp;&nbsp;Bryan Ortiz<br>
