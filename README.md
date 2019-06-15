@@ -2,7 +2,7 @@
 
 Página web referente a trabajo postulado el día Octubre 9 de 2018 para MPN6501-001D
 
-[Link al sitio oficial](https://teateamsoft.github.io/MPNGuide/home.html)
+[Link al sitio oficial](https://teateam.github.io/MPNGuide/home.html)
 
 ## Integrantes:
 
